@@ -9,26 +9,15 @@ cxx_compiler:
 jpeg:
 - '9'
 libarchive:
-- '3.5'
+- '3.6'
 libpng:
 - '1.6'
 libtiff:
-- '4'
+- '4.4'
 libwebp:
 - '1'
 openjpeg:
-- '2.5'
-pin_run_as_build:
-  jpeg:
-    max_pin: x
-  libpng:
-    max_pin: x.x
-  libtiff:
-    max_pin: x
-  openjpeg:
-    max_pin: x.x
-  zlib:
-    max_pin: x.x
+- '2'
 target_platform:
 - win-64
 vc:
